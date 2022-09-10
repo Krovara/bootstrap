@@ -1,0 +1,62 @@
+body{
+    background-color: bisque ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+
+h1{
+    
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.parrafo{
+    padding-left: 0.8px;
+    font-style: italic;
+    color: rgb(253, 5, 5);
+
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Fotos-custom {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+   
+  }
+  li{
+    color:rgb(255, 0, 0)
+  }
+  ol{
+        color:rgb(255, 0, 0)
+  }
+
+  .a-Redes{
+            font-size: 50px;
+            color:rgb(226, 43, 43)   
+        
+  }
+  a:hover{
+    color: brown;
+  }
+@media (min-height:950px){
+    img{
+        max-width: 100%;
+    }
+}
+
+.flexContainer{
+    display: flex;
+}
+
+.flexElement{
+    margin: 20px;
+    padding: 10px;
+}
